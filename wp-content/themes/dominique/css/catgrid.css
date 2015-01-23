@@ -1,0 +1,160 @@
+.catgrid .tagline {
+	margin-bottom: 20px;
+	}
+.catgrid .post{
+	position: relative;
+	overflow: hidden;
+	}
+	@media screen and (min-width: 830px) {
+		.catgrid .post {
+			position: relative;
+			float: left;
+			}
+		}
+	@media screen and (max-width: 830px) {
+		.catgrid .post {
+			width: 100%!important;
+			margin-bottom: 3px;
+			}
+		}
+
+		
+	.catgrid .post img {
+		position: absolute;
+		top: 0;
+		width: 100%;
+		min-height: 100%;
+		height: auto;
+		-webkit-transition: background 400ms ease-in-out;
+		-moz-transition: background 400ms ease-in-out;
+		-ms-transition: background 400ms ease-in-out;
+		-o-transition: background 400ms ease-in-out;
+		transition: all 400ms ease-in-out;
+		}
+	.catgrid .post:hover img {
+		-moz-transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		-o-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+	.catgrid .post.post0 {
+		width: 50%;
+	}
+		.catgrid .post.post0 .inner {
+			height: 0;
+			padding-top: 70.2%;
+			}
+	.catgrid .post.post1 {
+		width: 25%;
+	}
+		.catgrid .post.post1 .inner {
+			height: 0;
+			padding-top: 140.4%;
+			}
+	.catgrid .post.post2 {
+		width: 25%;
+	}
+		.catgrid .post.post2 .inner, .catgrid .post.post3 .inner{
+			height: 0;
+			padding-top: 70.2%;
+			}
+	.catgrid .post.post3 {
+		width: 25%;
+	}
+	.catgrid .post.post4 {
+		width: 25%;
+		clear: left;
+	}
+		.catgrid .post.post4 .inner, .catgrid .post.post5 .inner, .catgrid .post.post8 .inner, .catgrid .post.post9 .inner {
+			height: 0;
+			padding-top: 98.2%;
+			}
+	.catgrid .post.post5 {
+		width: 25%;
+	}
+	.catgrid .post.post6 {
+		width: 50%;
+	}
+		.catgrid .post.post6 .inner, .catgrid .post.post7 .inner {
+			height: 0;
+			padding-top: 49.1%;
+			}
+	.catgrid .post.post7 {
+		width: 50%;
+	}
+	.catgrid .post.post8 {
+		width: 25%;
+	}
+	.catgrid .post.post9 {
+		width: 25%;
+	}
+
+.catgrid .ovl {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.6);
+	padding: 10px;
+	height: 70px;
+	line-height: 1.4;
+	}
+	.catgrid  .ovl .txtWrap {
+		position: absolute;
+		text-align: center;
+		left: 0;
+		right: 0;
+		top: 0;
+		margin: 0;
+		padding: 10px;
+		}
+	.catgrid .ovl .snippet {
+		padding: 0 15%;
+		font-size: 14px;
+		}
+	@media screen and (max-width: 950px) {
+		.catgrid .ovl .snippet {
+			padding: 0 3%!important;
+			font-size: 12px;
+			}
+		}
+	@media screen and (max-width: 830px) {
+		.catgrid .ovl .snippet {
+			padding: 0 3%!important;
+			font-size: 12px;
+			}
+		}
+
+
+.catgrid .post .ovl .txtWrap .title {
+	font-weight: bold;
+	}
+
+	.catgrid .ovl .ovl-btn {
+		opacity: 0.0;
+		border: 1px solid #fff;
+		padding: 8px 12px;
+		text-align: center;
+		width: 100px;
+		margin: 10px auto;
+		-webkit-transition: opacity .5s; /* For Safari 3.1 to 6.0 */
+		transition: opacity .5s;
+		}
+		.catgrid .ovl .ovl-btn:hover {
+			background-color: #000;
+			opacity: 1.5;
+			}
+.catgrid .post:hover .ovl .txtWrap {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+	}
+.catgrid .post:hover .ovl .ovl-btn {
+	position: relative;
+	opacity: 1.0;
+	-webkit-transition: opacity .5s; /* For Safari 3.1 to 6.0 */
+	transition: opacity .5s;
+	}
